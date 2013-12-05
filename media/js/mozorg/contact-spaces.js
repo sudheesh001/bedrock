@@ -89,6 +89,12 @@
 
                 mozMap.checkForHash();
             });
+
+            $('#page-content').magnificPopup({
+                delegate: '.gallery-list a',
+                gallery: { enabled:true },
+                type: 'image'
+            });
         },
 
         /*
